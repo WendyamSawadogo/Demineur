@@ -1,0 +1,29 @@
+Les Bases
+
+Vous êtes face à une tableau composé de carreaux dont le contenu est caché. Certains carreaux cachent des mines, ou bombes. Vous perdrez si vous révélez un tel carreau. Pour gagner, il faut révéler tous les carreaux ne contenant pas de bombe.
+Révéler un carreau ne contenant pas de bombe affiche le nombre de mines parmi les 8 carreaux voisins. Utilisez cette information pour déduire où se situent les bombes.
+Pour révéler un carreau, il suffit de faire un clique-gauche dessus. Pour marquer un carreau comme contenant une bombe, faites un clique-droit dessus .
+En Détails:
+
+Les "voisins" d'un carreau sont les carreaux adjacents au dessus, en dessous, à gauche et selon les quatre diagonales. Les carreaux situés dans un coin, ou sur le côté, du tableau ont moins de voisins.
+Si vous révélez un carreau n'étant voisin d'aucune mine, tous ses voisins seront automatiquement révélés. Cela permet de révéler une large partie du tableau d'un coup.
+Afin de retirer le drapeau marquant un carreau comme contenant une bombe, faites un clique-droit dessus.
+Le premier carreau que vous révélez ne contient jamais de mine.
+Si vous marquez une bombe là où il n'y en pas, vous devrez corriger votre erreur avant de pouvoir gagner. Une telle erreur ne vous tue pas directement mais peut vous induire à révéler une mine par la suite.
+Vous n'avez pas besoin de marquer toutes les mines pour gagner, il suffit de révéler tous les carreaux ne contenant pas de mine.
+Pour débuter une nouvelle partie, appuyez sur le bouton 'nouvelle partie'.
+
+Le Paneau de Bord:
+
+Le coin supérieur gauche de l'écran contient le nombre de mines moins le nombre de carreaux marqués. Ainsi, en début de partie, il s'agit du nombre total de mines présentes sur le tableau. Ce chiffre s'adapte de manière dynamique en fonction de votre activité.
+Le coin supérieur droit de l'écran contient un chronomètre qui atteint son maximum en 999.
+Appuyez sur le temps pour basculer sur un compteur de mouvements, appuyez de nouveau pour retrouver le temps écoulé.
+Appuyez sur P pour mettre le jeu en pause. Le tableau sera caché durant la pause.
+Options et Améliorations:
+
+Ouverture - En plus de ne pas contenir lui-même de mine, le premier carreau que vous révélerez ne comportera aucune mine parmi ses vosins.
+Marque (?) - Un clique-droit sur un drapeau marquant la présence d'une bombe le transformera en point d'interrogation. Un second clique-droit permet de retrouver une case vierge de toute marque.
+Découvrir une zone - Si un carreau déjà révélé a le bon nombre de mines voisines marquées, cliquer sur ce carreau révélera tous ses voisins d'un coup. Entraîne la mort du joueur s'il y a eu une erreur dans le marquage des bombes voisines.
+Découvrir le reliquat - Quand il n'y a plus aucune mine à marquer, cliquer sur le compteur de mines (donc à 0) pour révéler toutes les cases encore couvertes.
+Désarmer (Annuler) - Après avoir cliqué sur une bombe, vous avez trois secondes pour choisir de la désarmer (et de sauver votre vie ainsi que la partie en cours). Les scores obtenus dans des parties comportant des bombes désarmées ne comptent pas pour le calcul des meilleurs scores.
+Indice (appuyer sur H) - Appuyer sur H alors que le curseur est sur un carreau le révélera sans mettre le joueur en danger. La partie en cours ne compte alors cependant plus en ce qui concerne les meilleurs scores.
